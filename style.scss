@@ -159,16 +159,16 @@ body
 .social-icons {
     display: flex;
     justify-content: flex-start;
-    gap: 50px; // Espacio entre los iconos
+    gap: 50px; 
     
     .social-icon {
       color: #333;
-      font-size: 24px; // Tamaño de los iconos
+      font-size: 24px; 
       text-decoration: none;
-      transition: color 0.3s; // Efecto de transición
+      transition: color 0.3s; 
       
       &:hover {
-        color:$colorSecundario; // Color al pasar el ratón por encima
+        color:$colorSecundario; 
       }
     }
 }
@@ -285,7 +285,7 @@ body
         .column 
         {
             flex: 1;
-            min-width: 500px; // Ajusta este valor según sea necesario
+            min-width: 500px;
             padding: 30px;
 
             .mapa 
@@ -461,7 +461,7 @@ main.container
     }
 }
 
-// Definición de la animación
+
 @keyframes fadeInUp {
     from 
     {
@@ -475,18 +475,18 @@ main.container
     }
 }
 
-// Aplicación de la animación al elemento principal
+
 #contacto 
 {
     animation: fadeInUp 1s ease-out;
 
-    // Anidación para estilos adicionales
+    
     .container 
     {
         padding-top: 20px; 
     }
 
-    // Estilo del formulario dentro del elemento principal
+    
     form 
     {
         background-color: #f9f9f9;
@@ -494,7 +494,7 @@ main.container
         border-radius: 10px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
-        // Estilos para los campos de entrada
+        
         input[type="text"],
         input[type="email"],
         select 
@@ -512,7 +512,7 @@ main.container
                 border-color: #0056b3;    }
         }
 
-        // Estilos para el botón de enviar
+        
         .btn {
             width: 100%;
             padding: 10px;
